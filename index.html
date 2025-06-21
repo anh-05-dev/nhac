@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bộ sưu tập ảnh</title>
+  <style>
+    body {
+      background-color: #000; /* nền đen */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff; /* chữ trắng */
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .image-box {
+      width: 200px;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .image-box img:hover {
+      transform: scale(1.05);
+    }
+
+    .image-box p {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #00ffcc; /* màu chữ nổi bật dưới ảnh */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bộ sưu tập ảnh</h1>
+
+  <div class="image-container">
+    <div class="image-box">
+      <img src="EYES,NOSE,LIPS.png" alt="Ảnh 1">
+      <p>EYES,NOSE,LIPS</p>
+    </div>
+    <div class="image-box">
+      <img src="Imagine.png" alt="Ảnh 2">
+      <p>IMAGINE</p>
+    </div>
+    <div class="image-box">
+      <img src="Live Forever.png" alt="Ảnh 3">
+      <p>LIVE FOREVER</p>
+    </div>
+  </div>
+
+</body>
+</html> 
